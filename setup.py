@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='trafficstars',
-    version='1.0',
+    version='1.0.1',
     description='TrafficStars API Client',
     url='https://github.com/Romamo/python-trafficstars',
 
