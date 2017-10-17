@@ -71,8 +71,8 @@ class Trafficstars(object):
     def campaign_status(self, id):
         return self.process('campaign/status', 'get', id)
 
-    def campaign_list(self):
-        return self.process('campaign/list', 'get')
+    def campaign_list(self, **kwargs):
+        return self.process('campaign/list', 'get', **kwargs)
 
     def stats_advertiser(self, section, section_id=None, **kwargs):
         return self.process('stats/advertiser', 'get', section, section_id, **kwargs)
